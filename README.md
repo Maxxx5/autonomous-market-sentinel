@@ -1,53 +1,53 @@
 # 🤖 Autonomous Market Sentinel
 
-**Автономный агент-маркетмейкер на базе Unicity Sphere SDK для Testnet v2**
+**Fully autonomous market maker agent on Unicity Sphere SDK for Testnet v2**
 
-## 📋 Описание
+## 📋 Overview
 
-Autonomous Market Sentinel — это полностью автономный экономический агент, работающий на Unicity Testnet v2. Агент выполняет маркетмейкинг без участия человека: сканирует Intent Market, анализирует входящие предложения, автоматически выставляет свои intents и принимает выгодные сделки.
+Autonomous Market Sentinel is a fully autonomous economic agent operating on the Unicity Testnet v2. It performs market making without human intervention: scanning the Intent Market, analyzing incoming offers, automatically creating its own intents, and accepting profitable deals.
 
-### Ключевые возможности
+### Key Features
 
-✅ **Полная автономность (Agentic)** — работает в бесконечном цикле без вмешательства человека  
-✅ **Identity & Wallet** — имеет уникальный Unicity Identity и персистентный кошелек  
-✅ **Intent Market Integration** — автоматически сканирует и участвует в рынке intents  
-✅ **Smart Order Matching** — анализирует входящие PaymentRequests по заданным правилам  
-✅ **Auto Market Making** — выставляет собственные intents каждые 30 секунд  
-✅ **Messaging Service** — публичный сервис для взаимодействия с другими агентами через DM  
-✅ **Broadcast Status** — публикует статус активности в сеть каждые 60 секунд  
-✅ **Comprehensive Logging** — полное логирование всех действий в консоль и файл  
+✅ **Full Autonomy (Agentic)** — runs in an infinite loop without human intervention
+✅ **Identity & Wallet** — has a unique Unicity Identity and persistent wallet
+✅ **Intent Market Integration** — automatically scans and participates in the intent market
+✅ **Smart Order Matching** — analyzes incoming PaymentRequests based on predefined rules
+✅ **Auto Market Making** — places its own intents every 30 seconds
+✅ **Messaging Service** — public service for interacting with other agents via DM
+✅ **Broadcast Status** — publishes activity status to the network every 60 seconds
+✅ **Comprehensive Logging** — logs all actions to console and file
 
 ## 🎯 Use Case
 
-Агент решает реальную проблему ликвидности в децентрализованных сетях:
+The agent solves the real problem of liquidity in decentralized networks:
 
-- **Для сети**: обеспечивает постоянную ликвидность, автоматически принимая и создавая intents
-- **Для других агентов**: предоставляет публичный сервис — любой агент может отправить DM или PaymentRequest
-- **Для экосистемы**: демонстрирует возможности полностью автономных экономических агентов
+- **For the network**: provides constant liquidity by automatically accepting and creating intents
+- **For other agents**: provides a public service — any agent can send a DM or PaymentRequest
+- **For the ecosystem**: demonstrates the capabilities of fully autonomous economic agents
 
-## 🛠️ Технологии
+## 🛠️ Technologies
 
 - **Runtime**: Node.js 18+
 - **SDK**: @unicitylabs/sphere-sdk
 - **Network**: Unicity Testnet v2
 - **Primitives**: payments, payment requests, swaps, intent market, messaging, nametags
 
-## 📦 Установка
+## 📦 Installation
 
-### Требования
+### Requirements
 
-- Node.js версии 18.0.0 или выше
-- npm (идет вместе с Node.js)
+- Node.js version 18.0.0 or higher
+- npm (comes with Node.js)
 
-### Шаги установки
+### Installation Steps
 
 ```bash
-# Клонируйте репозиторий
-git clone https://github.com/YOUR_USERNAME/autonomous-market-sentinel.git
+# Clone the repository
+git clone https://github.com/Maxxx5/autonomous-market-sentinel.git
 cd autonomous-market-sentinel
 
-# Установите зависимости
+# Install dependencies
 npm install
 
-# Запустите агента
+# Run the agent
 node src/index.mjs
