@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Wallet data (НИКОГДА не коммить приватные ключи!)
+wallet-data/
+tokens-data/
+
+# Logs
+agent.log
+*.log
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
